@@ -1,0 +1,66 @@
+1.	Write a C program to find the area of the circle. Define PI as symbolic constant and radius as variable.
+2.	 Write a C program to convert the given Celsius temperature to foreign heat.
+3.	Write a C program to swap two given numbers 
+i)	without using temporary 
+ii)	Using temporary variable
+4.	Write a C program to print the sizes of all data types with formatted output.
+Ex :  The size of short int = 2 bytes
+        The size of int = 2 bytes
+5.	Write a program to convert the given number of days into years, months, and left over days
+Ex: 489 days contains years: 1, months= 4, days = 4
+6.	Write a C program to find the biggest of two numbers using conditional operator
+7.	 Write a C program to find the given number is even or odd using conditional operator
+8.	Write a C program to check whether the given number is positive or negative using conditional operator
+9.	Write a C program to find the biggest of 3 given numbers using nested conditional operator
+10.	Write a C program to check whether the given number is even or odd using bitwise operators 
+11.	Write a C program to calculate surface area of a cylinder
+12.	Write a C program to calculate simple interest
+13.	Write a program to reverse a given 3 digit number
+14.	Write a C program to find the sum of digits of a given 4 digit number
+Ex: (if n = 3425 then sum= 3+4+2+5 =14)
+15.	Write a program to calculate mean , median, standard deviation 10 given numbers
+16.	Write a C program to find the sum and average of 5 given numbers.
+17.	   When eating at a restaurant , the bill is added with two percentage-based surcharges on top  of bill: one is    
+          sales tax and second is tip. These percentages are both applies to the original cost of the bill. 
+          For example, if food bill is Rs.1000 then 8% sales tax and 20% tip would be added to the final  bill. i.e  add 0.80    
+           for tax (0.08 * 1000) and 2.00 for tip (0.20 * 1000).
+          The input for this program is the total food cost 
+          The output is the receipt as the following 
+          	#Subtotal: Rs.10.00
+             #Tax: 0.8
+             #Tip: 2.0
+             #Total: Rs.12.8
+18.	Imagine you're writing code for an ATM that accepts cash deposits. You need to update the     customer's        
+    balance based on a deposit amount. Write the code  that will read the balance amount and deposit as input    
+    and print the new balance after the deposit is processed. 
+        example: balance = 500.45, deposit = 10,then the new balance is: 510.45
+
+19.	The following are the input variables which takes different values as True or False nothing but 1 or 0
+hot = True(1)
+cold = False(0)
+morning = True(1)
+evening = False(0)
+night = False(0)
+     Write a program that will recommend a meal based on the current weather and time of day. Specifically, the      
+     program  should recommend:
+# - soup if it's cold and either evening or night
+# - a biscuit if it's morning and cold
+# - cereal if it's morning and hot, or whenever the time is   night
+# - pizza whenever it's either evening or night
+
+20.  When taking out a mortgage (a type of loan) for a house, the mortgage is defined by three variables:   
+     the total cost of the house, the interest rate at which you will pay back the mortgage, and how many   
+     months you have to pay back the mortgage.
+     The formula to find the total amount of money that will be paid over that time is:
+    Total cost= Cost * Number of Months * Monthly Rate / (1 - ((1 + Monthly Rate) ^ -Number of Months))
+      Note that both time and rate are based on months: to find the  monhtly rate, divide the annual rate    
+       by 12. To find the number of months, multiply the number of years by 12. 
+    write some code that prints out a sentence like the following based on the original cost, interest rate,     
+    and number of years  given.
+Example:
+    Inputs: 
+    cost = 150000
+    rate = 0.0415
+    years = 15
+    output:
+    The total cost of the house will be  201751.36
