@@ -1,12 +1,36 @@
 #include <stdio.h>
 
+int max(int p, int q);
+
 int main(void)
 {
-    int a, b, c;
+    int a, b, c, d;
+    d = 0;
     scanf("%d%d%d", &a, &b, &c);
-    if(a>b+c || b>a+c || c>a+b)
+    if(max(max(a,b),c) == a)
     {
-        printf("This can form a circle\n");
+    	if(a < (b+c))
+    	{
+    		d = 1;
+		}
+	}
+	if(max(max(a,b),c) == b)
+    {
+    	if(b < (a+c))
+    	{
+    		d = 1;
+		}
+	}
+	if(max(max(a,b),c) == c)
+    {
+    	if(c < (b+a))
+    	{
+    		d = 1;
+		}
+	}
+    if(d == 1)
+    {
+        printf("This can form a triangle\n");
         if(a == b && b == c)
         {
             printf("Equilateral\n");
@@ -25,4 +49,14 @@ int main(void)
         printf("Not a triangle\n");
     }
     return 0;
+}
+
+int max(int p, int q)
+{
+	if(p>q){
+		return p;
+	}
+	else{
+		return q;
+	}
 }
